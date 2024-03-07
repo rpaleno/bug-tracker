@@ -1,2 +1,3 @@
-# bug-tracker
-React based bug tracker with project management capabilities
+# BugTracker
+React based bug tracker with project management capabilities.
+
