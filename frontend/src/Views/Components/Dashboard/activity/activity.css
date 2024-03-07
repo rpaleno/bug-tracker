@@ -1,0 +1,162 @@
+.recent-activity {
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  
+  .activity-view {
+    background-color: rgb(50, 51, 54);
+    width: 100%;
+    min-width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+  }
+  
+  .activity-view h1 {
+    margin: 0;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  
+  .timeline {
+    display: flex;
+  }
+
+  .timeline-items{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15px;
+    display: flex;
+    gap: 25px;
+
+    width: 100%;
+  }
+
+  .no-activity {
+    font-size: 45px;
+    color: grey;
+
+  }
+  
+  .timeline-item {
+    display: flex;
+    flex-direction: column;
+  }
+    
+  .timeline-item-content {
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 175px;
+    height: 100px;
+  }
+  
+  .timeline-item-content h3 {
+    margin: 0;
+  }
+  
+  .timeline-item-content p {
+    margin: 0;
+    margin-top: 10px;
+  }
+  
+  .timeline-item h3 {
+    margin-top: 0;
+  }
+
+  .left-arrow-container {
+    margin-left: 15px;
+  }
+  
+  
+.left-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 50px;
+  margin-top: 50px;
+  background-color: black;
+}
+
+
+.right-arrow-container {
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+.right-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 50px;
+  margin-top: 50px;
+  margin-left: 15px;
+  background-color: black;
+}
+
+.arrow.disabled {
+  color: grey;
+}
+
+button{
+  background:  teal;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: white;
+  margin-bottom: 10px;
+  font: normal bold 18px "Segoe UI";
+}
+
+button:hover{
+  transition: all 0.3;
+  background: #d4cece3c;
+}
+
+.loading-container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15px;
+    display: flex;
+    width: 100%;
+}
+
+.loading-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffffab;
+  border-radius: 50%;
+  margin: 0 5px;
+  opacity: 0;
+  animation: loadingAnimation 1s infinite ease-in-out;
+}
+
+.loading-dot:nth-child(2) {
+  animation-delay: .1s;
+}
+
+.loading-dot:nth-child(3) {
+  animation-delay: .2s;
+}
+
+@keyframes loadingAnimation {
+  0%, 100% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+}

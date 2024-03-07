@@ -1,0 +1,37 @@
+.team-view {
+    text-align: center;
+    background-color: teal;
+    max-width: 622.5px;
+    min-width: 300px;
+    width: 50%;
+    height: 528px;
+    overflow-y: scroll;
+    margin-right: 30px;
+  }
+  
+.team-view h1 {
+  margin: 0;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+  
+.member-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.member-table td {
+  border: 2px solid grey;
+  text-align: center;
+  padding: 6px;
+  width: 50px;
+  height: 50px;
+  border-radius: 0%;
+  background-color: rgb(45, 44, 44);
+  margin: 0 auto;
+}
+
+
+    

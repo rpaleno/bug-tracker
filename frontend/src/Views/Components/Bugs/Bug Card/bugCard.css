@@ -1,0 +1,21 @@
+.bug-card{
+    background-color: rgb(65, 66, 71);
+    box-shadow: 2px 2px 2px black;
+    text-align: center;
+    min-width: 275px;
+    min-height: 200px;
+    border-radius: 10px;
+}
+
+.bug-card:hover{
+    transition: all 0.3s;
+    transform: scale(1.05);
+}
+
+.priority-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 7px;
+    display: inline-block;
+  }

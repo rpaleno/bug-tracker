@@ -1,0 +1,23 @@
+#piechart_3d{
+    height: 100%;
+    box-shadow: 2px 2px 2px black;
+    overflow: hidden;
+  }
+
+.parent {
+  background-color: rgb(50, 51, 54);
+  width: 50%;
+  max-width: 622.5px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.chart-placeholder {
+  height: 100%;
+  font-size: 45px;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+  

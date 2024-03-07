@@ -1,0 +1,38 @@
+.sign-upBG{
+    background-color: rgb(33, 32, 32);
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-panel{
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.sign-up-panel h1{
+    width: 100%;
+}
+
+.sign-up-panel h5 {
+    margin: 0;
+    color: red;
+}
+
+.sign-up-panel input{
+    width: 70%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.sign-up-panel button {
+    width: 70%;
+    margin: 10px;
+}

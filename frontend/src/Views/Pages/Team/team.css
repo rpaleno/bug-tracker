@@ -1,0 +1,147 @@
+.parent-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 25px;
+  padding-right: 50px;
+}
+
+.selector-container {
+  width: 30vw;
+  height: 90vh;
+  outline: solid 2px grey;
+  border-radius: 10px;
+  margin-left: 25px;
+  margin-top: 3.5%;
+  min-height: 250px;
+  background-color: rgb(50, 51, 54);
+  overflow-y: scroll;
+}
+
+.selector-container h1 {
+  padding-right: 15px;
+}
+
+.top-view {
+  display: flex;
+  align-items: center; 
+}
+
+.top-view h1{
+  margin: 0;
+}
+
+.top-view button {
+  margin: 0;
+}
+
+.header-test {
+  margin-right: 10px;
+}
+
+.button-test {
+  margin-left: auto; 
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.button-test button {
+  margin-right: 2px;
+  margin-top:1px;
+  margin-bottom: 1px;
+}
+
+.selector-container h1 {
+  margin: 0px;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.selector-container hr {
+  border-color: grey;
+  border-width: 2px;
+  margin-bottom: 0;
+}
+
+.role-container {
+  width: 30vw;
+  height: 90vh;
+  outline: solid 2px grey;
+  align-items: flex-start;
+  border-radius: 10px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+.role-container hr {
+  border-color: grey;
+  border-width: 2px;
+  position: absolute;
+}
+
+.role-container h1 {
+  margin: 0px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+.submit-button {
+  margin-top: 312.5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project-item {
+  display: flex;
+  cursor: pointer;
+  margin: 0;
+  padding-left: 10px;
+  border-bottom: 1px solid grey; 
+}
+  
+.project-item:hover {
+  background-color: var(--hover-background-color, lightblue); 
+}
+  
+.selected {
+  background-color: teal;
+  color: white;
+}
+
+.role-list h5 {
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+
+.member-list h5 {
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.editing-panel button {
+  border-radius: 50%;
+  padding: 0;
+  width: 20px; 
+  height: 20px; 
+  background-color: teal; 
+  color: white; 
+  border: none; 
+  font-size: 14px;
+  cursor: pointer; 
+  display: inline-flex; 
+  justify-content: center; 
+  align-items: center; 
+  padding-bottom: 3.5px;
+  margin-top: 16px;
+  margin-right: 6px;
+}
+
+.editing-panel {
+  display: flex;
+}
+
+.role-submit {
+  margin-left: auto;
+}

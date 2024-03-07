@@ -1,0 +1,54 @@
+.bug-form{
+    width: 50vw;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 11;
+    padding: 1% 5%;
+}
+
+.bug-form select {
+    appearance: default;
+    -webkit-appearance: none;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+
+
+.bug-form h1{
+    min-width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    
+    border-bottom: 1px groove white;
+}
+
+.bug-form form{
+    min-width: 80%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.bug-form label{
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+.bug-form input,textarea,select{
+    border-radius: 5px;
+
+}
+
+.bug-form button{
+    grid-column: 2;
+}
+
+.empty-field {
+    border: 2.5px solid red;
+  }
+  

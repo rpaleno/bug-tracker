@@ -1,0 +1,37 @@
+.button-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: left;
+    margin-top: 2.5%;
+    margin-left: 45px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.alerts-table {
+    background-color: rgb(50, 51, 54);
+    display: flex;
+    justify-content: center;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 25px;
+}
+
+.alerts-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.alerts-table td {
+    border: 2px solid white;
+    text-align: center;
+    padding: 8px;
+}
+
+.table-header {
+    background: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px; 
+}

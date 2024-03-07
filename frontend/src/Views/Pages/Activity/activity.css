@@ -1,0 +1,18 @@
+.activity-table {
+    background-color: rgb(50, 51, 54);
+    border-collapse: collapse;
+    width: 100%;
+    margin-right: 45px;
+    margin-top: 25px;
+}
+
+.activity-table td {
+    border: 1px solid white;
+    text-align: center;
+    padding: 8px;
+}
+
+.title {
+  background-color: black;
+  justify-content: center;
+}

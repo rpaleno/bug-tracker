@@ -1,0 +1,82 @@
+.box-container {
+    z-index: 15;
+    position:absolute;
+    background-color: rgb(51, 51, 51);
+    width: 60vw;
+    height: 60vh;
+    max-height: 300px;
+    max-width: 500px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.box-container h1 {
+    min-width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 10px;
+    border-bottom: 1px groove white;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.scrollable-box {
+    background-color: white;
+    color: black;
+    max-height: 200px; 
+    overflow-y: auto; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+
+.scrollable-box .invite-row {
+    display: flex; 
+    margin-top:1px;
+    margin-bottom: 1px;
+    text-align: center;
+    justify-content: center;
+}
+
+.scrollable-box input[type="text"] {
+  border: none; 
+  outline: none; 
+  padding: 8px; 
+  margin: 4px; 
+  margin-left: 40px;
+
+}
+
+.scrollable-box button {
+  border-radius: 50%;
+  padding: 0;
+  width: 20px; 
+  height: 20px; 
+  background-color: teal; 
+  color: white; 
+  border: none; 
+  font-size: 14px; 
+  cursor: pointer; 
+  display: inline-flex; 
+  justify-content: center; 
+  align-items: center; 
+  padding-bottom: 3.5px;
+  margin-top: 3.25px;
+  margin-left: 4px;
+}
+
+.invite-button {
+    margin-top: 10px;
+}
+
+.error-message {
+  color: rgb(208, 136, 3);
+  font-size: 12px;
+  margin: 0;
+  text-align: center;
+}
