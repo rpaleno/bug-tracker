@@ -1,0 +1,7 @@
+node_modules/
+manifests/
+package-lock.json
+.DS_Store
+.env
+Dockerfile
+nginx.conf
