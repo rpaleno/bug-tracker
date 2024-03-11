@@ -19,3 +19,6 @@ BugTracker allows users to:
 * Send project invitations
 * Manage project teams
 
+# Demo
+
+![Login](./README_Assets/login.png)
