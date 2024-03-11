@@ -1,7 +1,6 @@
 import React,{useState} from 'react'
 import {useDispatch, useSelector} from 'react-redux'
 
-
 export default (props)=>{
     const dispatch = useDispatch();
     const token = useSelector(state=>state.auth.token);
@@ -16,9 +15,7 @@ export default (props)=>{
     }
 
     function handleSubmit(e) {
-        console.log(bugObject)
         dispatch(props.func(e, bugObject, token))
-        console.log(members)
     }
 
     return(

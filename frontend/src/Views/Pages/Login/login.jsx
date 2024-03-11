@@ -27,7 +27,6 @@ export default ()=>{
         
         try {
             dispatch(login(formInput))
-            
             const socket = io('http://localhost:3502')
             socket.on('connect', () => {
                 //emit the 'setUsername' event after the connection is established

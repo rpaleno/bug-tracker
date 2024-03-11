@@ -28,7 +28,7 @@ export const createNotification = (e, notification, token) => async (dispatch) =
             'Content-Type': 'application/json'
         }
     };
-
+    console.log(notification)
     axios.post('http://localhost:3500/notifications/create', notification, config)
     .then(response => {
         console.log(response.data)

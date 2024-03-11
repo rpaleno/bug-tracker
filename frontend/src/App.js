@@ -34,7 +34,8 @@ function App() {
           withCredentials: true
         };
         const response = await axios.post('http://localhost:3501/auth/token', {}, config)
-        console.log(response.data)
+        //console.log(response.data)
+        //console.log(response.data.user)
         dispatch(signIn(response.data))
         setIsLoading(false)
         
