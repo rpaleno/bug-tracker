@@ -22,3 +22,7 @@ BugTracker allows users to:
 # Demo
 
 ![Login](./README_Assets/login.png)
+![Dashboard](./README_Assets/dashboard.png)
+![Bugs](./README_Assets/bugs.png)
+![Bug Report](./README_Assets/bug_report.png)
+![Team](./README_Assets/team.png)
