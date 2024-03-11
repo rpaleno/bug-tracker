@@ -17,7 +17,9 @@ BugTracker allows users to:
 * Track the status of bug reports (e.g., open, in progress, resolved).
 * Close bug reports once they are fixed.
 * Send project invitations
+* Receive notifications for new bugs and project invitations
 * Manage project teams
+  
 
 # Demo
 
