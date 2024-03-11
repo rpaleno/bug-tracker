@@ -82,7 +82,6 @@ export const createBug = (e, bug, token) => async (dispatch) => {
         notification.date = getActivityDate(new Date())
         notification.time = getActivityTime()
         console.log(notification)
-        console.log('yes')
         dispatch(createActivity(activityObject, token))
         dispatch(createNotification(e, notification, token))
         const socket = io('http://localhost:3502')
